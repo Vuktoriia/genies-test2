@@ -1,0 +1,39 @@
+.chefs-section {
+    &__title {
+            margin: 0 auto 80px;
+            position: relative;  
+
+
+&::after,
+&::before {
+        width: 352px;
+        border: 2px solid var(--bakery-landing-1-c5);
+        width: 352px;
+        height: 0px;
+        content: '';
+        position: absolute;
+        bottom: 24px;   }
+        
+        
+ &::before {
+         left: 0;
+                }
+        
+&::after {
+         right: 0;
+                }        }
+
+ &__list {
+       display: flex;
+       gap: 40px 30px;
+       flex-wrap: wrap;
+                                }
+                
+ &__item {
+       flex-basis: calc((100% - 30px) / 2);
+                                }
+}
+
+
+
+
